@@ -137,7 +137,7 @@ let objectDefin: {
 objectDefin = {
     aaa:"aa",
     bbb:1,
-    sayHi:function(a:string,b:string){
+    sayHi:(a:string,b:string)=>{
         return a.substring(0.1) +b.indexOf("1");
     }
 }
